@@ -21,7 +21,7 @@ router.get('/start', function (req, res, next) {
 
 /* Feeding dataSet the data. */
 let dataSet = [];
-dataSet.push(data.dataSet);
+dataSet.push(...data.dataSet);
 
 /* Training the neural network. */
 net.train(dataSet);
