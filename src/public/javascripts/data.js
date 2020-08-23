@@ -1,5 +1,5 @@
-let functions = require('./functions');
-let rl = require('./relative-luminance');
+const functions = require('./functions');
+const rl = require('./relative-luminance');
 
 /* Trainable dataset. */
 let dataSet = [];
