@@ -1,83 +1,83 @@
 body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 6rem;
-  font-weight: bold;
-  line-height: 1.5;
-  margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 100vh;
-  background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
-  background-size: 600% 100%;
-  -webkit-animation: gradient 8s ease infinite;
-  -moz-animation: gradient 8s ease infinite;
-  -o-animation: gradient 8s ease infinite;
-  animation: gradient 8s ease infinite;
-  -webkit-animation-direction: alternate;
-  -moz-animation-direction: alternate;
-  -o-animation-direction: alternate;
-  animation-direction: alternate;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    background-size: 600% 100%;
+    -webkit-animation: gradient 8s ease infinite;
+    -moz-animation: gradient 8s ease infinite;
+    -o-animation: gradient 8s ease infinite;
+    animation: gradient 8s ease infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -o-animation-direction: alternate;
+    animation-direction: alternate;
 }
 
 .wrapper:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .btn {
-  all: inherit;
+    all: inherit;
 }
 
 @-webkit-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
 }
 
 @-moz-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
 }
 
 @-o-keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
 }
 
 @keyframes gradient {
-  0% {
-    background-position: 0 100%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
 }

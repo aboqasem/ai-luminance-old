@@ -6,7 +6,7 @@
     "start": "node src/bin/www"
   },
   "dependencies": {
-    "brain.js": "^2.0.0-beta.1",
+    "brain.js": "^2.0.0-beta.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
